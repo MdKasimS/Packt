@@ -10,9 +10,9 @@ namespace Packt.Shared
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             // base.OnConfiguring(optionsBuilder);
-            string path = System.IO.Path.Combine(System.Environment.CurrentDirectory, "Northwind.db");
+            // string path = System.IO.Path.Combine(".//", "NorthwindDb.db");
 
-            optionsBuilder.UseSqlite(path);
+            optionsBuilder.UseSqlite("Data Source=NorthwindDb.db");
         }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
