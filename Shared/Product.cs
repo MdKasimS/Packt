@@ -14,6 +14,8 @@ namespace Packt.Shared
         [Column("UnitsInStock")]
         public short? Stock {get; set;}
 
+        [Column("UnitPrice", TypeName ="money")]
+        public decimal? Cost { get; set;}
         public bool Discontinued {get; set;}
 
         public int CategoryID {get; set;}

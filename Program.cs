@@ -8,6 +8,7 @@ internal class Program
     {
         Console.WriteLine("Welcome To .NET World!");
         QueryingCategories();
+        QueryingProducts();
     }
 
     static void QueryingCategories()
@@ -22,6 +23,21 @@ internal class Program
         foreach(Category c in cats)
         {
             Console.WriteLine($"{c.CategoryName} has {c.Products.Count} products");
+        }
+    }
+
+    static void QueryingProducts()
+    {
+        var db = new Northwind();
+
+        Console.WriteLine("Producst with higher costs:-");
+
+        IQueryable<Product> prods = db.Products.Where(product => product.Cost > (decimal)200).
+                                    OrderByDescending(product => product.Cost);
+
+        foreach(Product product in prods)
+        {
+            Console.WriteLine(product.Cost);
         }
     }
 }
