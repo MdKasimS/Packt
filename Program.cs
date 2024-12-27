@@ -28,16 +28,18 @@ internal class Program
 
     static void QueryingProducts()
     {
+        //check public constructor and singleton nature for DB class.
         var db = new Northwind();
 
         Console.WriteLine("Producst with higher costs:-");
 
-        IQueryable<Product> prods = db.Products.Where(product => product.Cost > (decimal)200).
-                                    OrderByDescending(product => product.Cost);
+        IQueryable<Product> prods = db.Products.
+                                    Where(product => product.Cost > 200).
+                                    OrderByDescending(product => Convert.ToDouble(product.Cost));
 
-        foreach(Product product in prods)
+        foreach(Product items in prods)
         {
-            Console.WriteLine(product.Cost);
+            Console.WriteLine(items.Cost);
         }
     }
 }

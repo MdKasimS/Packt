@@ -3,16 +3,20 @@
   "WorkspaceRootPath": "D:\\Bhai\\CSharp\\SQL_Using_CSharp\\Packt\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4934A712-0EFC-4410-A51B-0D763A88EA67}|Packt.csproj|d:\\bhai\\csharp\\sql_using_csharp\\packt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4934A712-0EFC-4410-A51B-0D763A88EA67}|Packt.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4934A712-0EFC-4410-A51B-0D763A88EA67}|Packt.csproj|d:\\bhai\\csharp\\sql_using_csharp\\packt\\shared\\northwind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4934A712-0EFC-4410-A51B-0D763A88EA67}|Packt.csproj|solutionrelative:shared\\northwind.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4934A712-0EFC-4410-A51B-0D763A88EA67}|Packt.csproj|d:\\bhai\\csharp\\sql_using_csharp\\packt\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4934A712-0EFC-4410-A51B-0D763A88EA67}|Packt.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4934A712-0EFC-4410-A51B-0D763A88EA67}|Packt.csproj|d:\\bhai\\csharp\\sql_using_csharp\\packt\\shared\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4934A712-0EFC-4410-A51B-0D763A88EA67}|Packt.csproj|solutionrelative:shared\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4934A712-0EFC-4410-A51B-0D763A88EA67}|Packt.csproj|d:\\bhai\\csharp\\sql_using_csharp\\packt\\shared\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4934A712-0EFC-4410-A51B-0D763A88EA67}|Packt.csproj|solutionrelative:shared\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,19 +26,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 189,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\Bhai\\CSharp\\SQL_Using_CSharp\\Packt\\Shared\\Category.cs",
+              "RelativeDocumentMoniker": "Shared\\Category.cs",
+              "ToolTip": "D:\\Bhai\\CSharp\\SQL_Using_CSharp\\Packt\\Shared\\Category.cs",
+              "RelativeToolTip": "Shared\\Category.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-16T14:14:34.135Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "Northwind.cs",
               "DocumentMoniker": "D:\\Bhai\\CSharp\\SQL_Using_CSharp\\Packt\\Shared\\Northwind.cs",
               "RelativeDocumentMoniker": "Shared\\Northwind.cs",
               "ToolTip": "D:\\Bhai\\CSharp\\SQL_Using_CSharp\\Packt\\Shared\\Northwind.cs",
               "RelativeToolTip": "Shared\\Northwind.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAZAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-17T20:21:19.172Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
@@ -45,10 +63,10 @@
               "RelativeDocumentMoniker": "Shared\\Product.cs",
               "ToolTip": "D:\\Bhai\\CSharp\\SQL_Using_CSharp\\Packt\\Shared\\Product.cs",
               "RelativeToolTip": "Shared\\Product.cs",
-              "ViewState": "AQIAAAcAAAAAAAAAAAAuwBEAAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-18T08:31:14.99Z",
-              "EditorCaption": ""
+              "IsPinned": true
             }
           ]
         },
@@ -58,13 +76,13 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Bhai\\CSharp\\SQL_Using_CSharp\\Packt\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Bhai\\CSharp\\SQL_Using_CSharp\\Packt\\Program.cs*",
-              "RelativeToolTip": "Program.cs*",
-              "ViewState": "AQIAABsAAAAAAAAAAADwvyUAAAAjAAAA",
+              "ToolTip": "D:\\Bhai\\CSharp\\SQL_Using_CSharp\\Packt\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAAACcAAAAhAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-17T20:20:41.863Z",
               "EditorCaption": ""
